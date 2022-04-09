@@ -1,0 +1,100 @@
+html,
+body {
+    position: relative;
+    width: 1440px;
+    height: 1349px;
+
+    background: #F1F1F1;
+}
+
+.header {
+    position: absolute;
+    width: 213px;
+    height: 121px;
+    left: 135px;
+    top: 0px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #E74B3B;
+
+}
+
+.banner {
+
+    position: absolute;
+    width: 1444px;
+    height: 287px;
+    left: 0px;
+    top: 148px;
+
+    background: #FFFFFF;
+
+}
+
+.barra1 {
+
+    position: absolute;
+    width: 1170px;
+    height: 70px;
+    left: 113px;
+    top: 514px;
+
+    background: #E74B3B;
+
+}
+
+.fundo1 {
+
+    position: absolute;
+    width: 1170px;
+    height: 772px;
+    left: 113px;
+    top: 514px;
+
+    background: rgba(231, 75, 59, 0.13);
+}
+
+.barra2 {
+
+    position: absolute;
+    width: 971px;
+    height: 38px;
+    left: 212px;
+    top: 1237px;
+
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 21px;
+
+}
+
+.paperclip {
+
+    position: absolute;
+    width: 36px;
+    height: 38px;
+    left: 147px;
+    top: 1237px;
+
+    background: url(PaperClip_4895.png);
+
+}
+
+.send {
+
+    position: absolute;
+    width: 46.07px;
+    height: 45px;
+    left: 1206px;
+    top: 1233px;
+
+}
