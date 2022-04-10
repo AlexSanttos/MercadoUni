@@ -1,0 +1,86 @@
+html,
+body {
+    position: relative;
+    width: 1440px;
+    height: 1349px;
+
+    background: #F1F1F1;
+}
+
+.header {
+    position: absolute;
+    width: 213px;
+    height: 121px;
+    left: 135px;
+    top: 0px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #E74B3B;
+
+}
+
+.usuario {
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1090px;
+    top: 46px;
+
+    background: url(icons8-usuário-90.png);
+
+}
+
+.login {
+
+    position: absolute;
+    width: 90px;
+    height: 36px;
+    left: 1120px;
+    top: 43px;
+
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+.carrinho {
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1228px;
+    top: 46px;
+
+    background: url(icons8-carrinho-de-compras-96.png);
+
+}
+
+.chat {
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1275px;
+    top: 46px;
+
+    background: url(icons8-bate-papo-96.png);
+
+}
