@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div>
+
+        <div class="header">
+            <h1 class="mercado" >Mercado</h1c>
+            <h1 class="uni">Uni</h1>
+
+            <input class="search" type="search" placeholder="Search">
+            <img class="img
+            " src="../img/icons8-search-50.png"
+            <a href="#">
+                <img class="img2" src="../img/carrinho de compras.png" alt="">
+            </a>
+
+            <a href="#">
+                <img class="img3" src="../img/batepapo.png" alt="">
+            </a>
+
+
+            <a class="a1"href="#" ><strong>Eletronicos</strong> </a>
+
+            <a class="a2"href="#"><strong>Informatica</strong></a>
+
+            <a class="a3"href="#"><strong>Games</strong></a>
+
+            <a class="a4"href="#"><strong>Acessorios</strong></a>
+
+            <a class="a5"href="#"><strong>Celulares</strong></a>
+
+            <a class="a6"href="#"><strong>Móveis</strong></a>
+
+            <a class="a7"href="#"><strong>Áudio e Video</strong></a>
+
+        </div>
+    </div>
+    
+    <div>
+
+        <div>
+
+            <div class="line"></div>
+            <div class="retangulo"></div>
+            <h1 class="texto2">Crie o seu cadastro</h1>
+            <div class="line2"></div>
+            <h1 class="texto1">Quero criar uma conta</h1>
+            <p class="p1">Veja seus pedidos de forma facil e compre mais rapido</p>
+
+        </div>
+
+        <form method="post" action="../Login/index.html">
+
+            <div class="campo">
+
+                <label class="ponto1"for="nome"><strong>*</strong></label>
+                <label class="l1"for="nome"><strong>Nome Completo</strong></label>
+                <input class="i1" type="text" name="nome" id="nome" required>
+
+            </div>
+
+            <div class="campo">
+
+                <label class="ponto2"for="genero"><strong>*</strong></label>
+                <label class="l2"for="genero"><strong>Gênero</strong></label>
+
+                <label class="feminino"for="feminino">Feminino</label>
+                <input class="i2" type="radio" name="genero" id="feminino" required>
+
+                <label class="masculino"for="masculino">Masculino</label>
+                <input class="i3" type="radio" name="genero" id="masculino" required>
+
+                <label class="nao_informar"for="others">Não informar</label>
+                <input class="i4" type="radio" name="genero" id="others" required>
+
+            </div>
+
+            <div class="campo">
+
+                <label class="ponto3"for="data"><strong>*</strong></label>
+                <label class="l3"for="data"><strong>Data de nascimento</strong></label>
+                <input class="i5" type="date" name="data" id="data" required>
+
+            </div>
+
+            <div class="campo">
+
+                <label class="ponto4"for="cpf"><strong>*</strong></label>
+                <label class="l4"for="cpf"><strong>CPF</strong></label>
+                <input class="i6" type="number" name="cpf" id="cpf" placeholder="xxx.xxx.xxx-xx" required>
+
+            </div>
+
+            <div class="campo">
+
+                <label class="ponto5"for="tel"><strong>*</strong></label>
+                <label class="l5"for="tel"><strong>Telefone</strong></label>
+                <input class="i7" type="tel" name="tel" id="tel" placeholder="(__)_____-____" required>
+
+                <label class="l6"  for="recebertel"><strong>Receber informaçoes por whatsapp</strong></label>
+                <input class="i8" type="checkbox" id="recebertel">
+
+            </div>
+
+            <div class="campo">
+
+                <label class="ponto6"for="email"><strong>*</strong></label>
+                <label class="l7"for="email"><strong>E-mail</strong></label>
+                <input class="i9" type="email" name="email" id="email" required>
+
+                <label class="l8"  for="receberemail">Receber E=mails promocionais</label>
+                <input class="i10" type="checkbox" id="receberemail">
+
+            </div>
+
+            <div class="compo">
+
+                <label class="ponto7"for="senha"><strong>*</strong></label>
+                <label class="l9"for="senha"><strong>Senha</strong></label>
+                <input class="i11" type="password" name="senha" id="senha" required>
+
+                <label class="l10" for="revelarSenha"><strong>Revelar Senha</strong></label>
+                <input id="revelarSenha" class="i12"type="checkbox" onclick="mostrarOcultarSenha()">
+
+                <label class="l11" for="revelarSenha"><strong>precisa ter entre 6 a 20 caracteres</strong></label>
+
+            </div>
+
+            <button class="bnt1" type="submit">Criar meu cadastro</button>
+
+        </form>
+
+        <h1 class="fim1">Não se preocupe, nosso site é seguro! Ao criar o seu cadastro, você concorda com a nossa Política de Privacidade</h1>
+
+        <a class="fim2" href="../Login/index.html"><strong>Já tem cadastro? entrar</strong></a>
+
+    </div>
+
+    <script src="js/script.js"></script>
+    
+</body>
+
+</html>
