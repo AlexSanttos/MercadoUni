@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+    margin: 0px;
+    background-color: #E5E5E5;
+}
+
+.header {
+    margin: auto;
+    width: 1525px;
+    height: 149px;
+    background: #FFFFFF;
+    
+  
+}
+
+
+
+
+.mercado {
+
+    position: absolute;
+    width: 284px;
+    height: 121px;
+    padding-left: 135px;
+    top: -25px;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #E74B3B;
+}
+
+.uni {
+
+    position: absolute;
+    width: 284px;
+    height: 121px;
+    padding-left: 289px;
+    top: -25px;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #004A8F;
+}
+
+.search {
+
+    position: absolute;
+    width: 686px;
+    height: 36px;
+    margin-left: 379px; 
+    top: 43px;
+    padding-left: 3em;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+
+
+    background: #FFFFFF;
+    border: 1px solid #4A4A4A;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.login{
+    position: absolute;
+
+    padding-left: 1095px;
+    top: 48px;
+}
+
+
+.img {
+
+    position: absolute;
+    width: 31px;
+    height: 26px;
+    padding-left: 1018px;
+    top: 48px;
+}
+
+.img2 {
+
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    padding-left: 1238px;
+    top: 53px;
+}
+
+.img3 {
+
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    padding-left: 1290px;
+    top: 54px;
+
+}
+
+.retangulo {
+
+    position: absolute;
+    width: 1170px;
+    height: 1380px;
+    left: 370px;
+    top: 194px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.line {
+    position: absolute;
+    width: 1913px;
+    height: 0px;
+    left: -12px;
+    top: 151px;
+
+    border: 1px solid #004A8F;
+    box-shadow: 0px 4px 4px rgba(0, 74, 143, 0.5);
+    transform: rotate(-0.06deg);
+}
+
+.a1 {
+    position: absolute;
+    
+    height: 29px;
+    padding-left: 385px;
+    top: 99px;
+
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+
+    color: #000000;
+}
+
+.a2 {
+    position: absolute;
+    width: 93.33px;
+    height: 29px;
+    padding-left: 495px;
+    top: 99px;
+
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #000000;
+}
+
+.a3 {
+    position: absolute;
+    width: 93.33px;
+    height: 29px;
+    padding-left:595px;
+    top: 99px;
+    text-decoration: none;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.a4 {
+    position: absolute;
+    width: 93.33px;
+    height: 29px;
+    padding-left:675px;
+    top: 99px;
+    text-decoration: none;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.a5 {
+
+    position: absolute;
+    width: 93.33px;
+    height: 29px;
+    padding-left:775px;
+    top: 99px;
+    text-decoration: none;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.a6 {
+    position: absolute;
+    width: 93.33px;
+    height: 29px;
+    padding-left:885px;
+    top: 99px;
+    text-decoration: none;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.a7 {
+    position: absolute;
+    width: 114.67px;
+    height: 29px;
+    padding-left:979px;
+    top: 99px;
+    text-decoration: none;
+
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+
+
