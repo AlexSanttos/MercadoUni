@@ -1,0 +1,239 @@
+.container{
+    
+    margin: auto;
+    width: 1220px;
+    height: 1500px;
+    background-color: white;
+    margin-top: 52px;
+    padding-left: 70px;
+    padding-bottom: 1px;
+    border-radius: 23px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.linha2 {
+  
+    border: 1px solid #000000;
+    transform: rotate(-0.1deg);
+
+}
+
+.card {
+    padding-right: 34px;
+    width: 245px;
+    display: inline-block;
+    padding-top: 45px;
+
+}
+
+
+.area {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: auto;
+    width: 1200px;
+    height: 320px;
+    background-color: white;
+    padding: 20px;
+    padding-top: 0px;
+    padding-left: 42px;
+    box-sizing: border-box;
+    border-bottom: solid rgba(0, 0, 0, 0.363) 4px;
+    border-radius: 23px;
+ 
+}
+
+#itens {   
+    width: 1200px;
+    height: 5px;
+    
+}
+
+#bot1 {
+    position: absolute;
+    top: 420px;
+    width: 30px;
+    padding-left: 09px;
+    cursor: pointer;
+}
+#bot2 {
+    position: absolute;
+    top: 420px;
+    width: 30px;
+    padding-left: 1175px;
+    cursor: pointer;
+}
+.subTitulo {
+    padding-left: 10px;
+    color: #E74B3B;
+    font-family: 'Kanit';
+    font-weight: 100%;
+    font-size: 30px;
+    line-height: 45px;
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 20px
+    ;
+}
+.p{
+    padding-top: 100px;
+    
+}
+.tit{
+    padding-left: 20px;
+    font-family: 'Kanit';
+    font-weight: 700;
+    font-size: 17px;
+    
+}
+.direita {
+    float: right;
+    width: 312px;
+    height: 614px;
+    margin-right: 24px;
+    padding: 80px;
+    padding-right: 25px;
+    padding-left: 34px;
+    padding-top: 0px;
+    border: solid rgba(0, 0, 0, 0.24) 2px;
+    border-bottom: solid rgba(0, 0, 0, 0.363) 4px;
+    border-radius: 30px;
+    padding-bottom: 5px;
+    
+}
+.resumo{
+    font-family: 'Kanit';
+    font-weight: 100%;
+    font-size: 30px;
+    color: #E74B3B;
+    padding-top: 0px;
+
+}
+.desc{
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 250;
+    color: rgba(0, 0, 0, 0.616) ;
+    margin-top: 0px;
+
+}
+.d{
+   float: right; 
+}
+.n{
+    font-weight: 700;
+    color: black;
+}
+input[type="submit"] {
+    color: rgb(255, 255, 255);
+    font-family: 'Kanit';
+    background-color: #004A8F;
+    font-weight: 500px;
+    font-size: 30px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    width: 310px;
+    height: 50px;
+    display: block;
+    margin-bottom: 0px;
+    margin: auto;
+    border-radius: 9px;
+    cursor: pointer;
+
+}
+.qtn{
+    position: absolute;
+    top: 726px;
+    padding-left: 540px;
+}
+.prec{
+    position: absolute;
+    top: 726px;
+    padding-left: 680px;
+    
+}
+.pr{
+    display: block;
+}
+.linec1{
+    position: absolute;
+    top: 800px;
+    width: 750px;
+    margin-left: 20px;
+
+
+}
+.tec{
+    
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 180px;
+
+}
+.descri{
+    position: absolute;
+    top: 835px;
+    padding-left: 240px; 
+}
+.descr2{
+    position: absolute;
+    top: 964px;
+    padding-left: 240px; 
+}
+.descr3{
+    position: absolute;
+    top: 1078px;
+    padding-left: 240px; 
+}
+.descr4{
+    position: absolute;
+    top: 1200px;
+    padding-left: 240px; 
+}
+.descr5{
+    position: absolute;
+    top: 1310px;
+    padding-left: 240px; 
+}
+.quant{
+    padding-left: 305px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+.pc{
+    float: right;
+    padding-top: 44px;
+    padding-right: 80px;
+}
+.linec1{
+    position: absolute;
+    top: 800px;
+    width: 750px;
+    margin-left: 20px;
+}
+.linec2{
+    position: absolute;
+    top: 920px;
+    width: 750px;
+    margin-left: 20px;
+}
+.linec3{
+    position: absolute;
+    top: 1040px;
+    width: 750px;
+    margin-left: 20px;
+}
+.linec4{
+    position: absolute;
+    top: 1160px;
+    width: 750px;
+    margin-left: 20px;
+}
+.linec5{
+    position: absolute;
+    top: 1280px;
+    width: 750px;
+    margin-left: 20px;
+}

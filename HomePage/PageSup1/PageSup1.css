@@ -1,0 +1,173 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    background-color: #F1F1F1;
+}
+.header {
+    
+    position: absolute;
+    width: 1905px;
+    height: 149px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+}
+
+.mercado {
+    position: absolute;
+    width: 284px;
+    height: 121px;
+    left: 211px;
+    top: -25px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #E74B3B;
+}
+
+.uni {
+    position: absolute;
+    width: 284px;
+    height: 121px;
+    left: 10.12em;
+    top: -25px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #004A8F;
+}
+
+.search {
+
+    position: absolute;
+    width: 914.67px;
+    height: 36px;
+    left: 485px;
+    top: 43px;
+    padding-left: 3em;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    
+
+    background: #FFFFFF;
+    border: 1px solid #4A4A4A;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.img {
+
+    position: absolute;
+    width: 31px;
+    height: 26px;
+    left: 1365px;
+    top: 48px;
+}
+
+
+/* meu codigo */
+
+
+.heade img{ width: 100%;
+    display: block;
+
+}
+
+p{
+    display: block;
+    text-align: center;
+    padding: 1%;
+    font-size: 16px;
+    font-weight: bold
+}
+
+.blocks{
+    padding: 2%;
+    margin: 5% 11% 5% 11%;
+    background-color: white;
+
+}
+
+.blocks img{
+
+    width: 1.5%;
+}
+
+.blocks > span{
+    color: #E74B3B;
+    font-weight: bold;
+    padding: 5% 1%;
+}
+
+.descricao{
+    margin: 2%;
+}
+
+.rodape > p{
+    color: #E74B3B;
+    font-size: 20px;
+
+}
+.titulo p{
+    font-size: 24px;
+}
+
+.chat1{
+    display: inline-block;
+    width: 30%;
+    margin: 5% auto 5% 11%;
+    background-color: white;
+    padding: 2%;
+}
+
+.chat1 p{
+    text-align: left;
+}
+
+.chat1 img{
+    width: 6%;
+}
+
+.chat2{
+    display: inline-block;
+    width: 30%;
+    margin: 5% 11% 5% auto;
+    background-color: white;
+    padding: 2%;
+}
+
+.chat2 p{
+    text-align: left;
+}
+
+.chat2 img{
+    width: 6%;
+}
+
+.botons img{
+    float: right;
+    width: 30%;
+}
+.bottons span{
+    color: #E74B3B;
+    font-weight: bold;
+}
